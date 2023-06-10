@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">قيد بلوت</string>
+    <string name="ass">لنا</string>
+    <string name="them">لهم</string>
+    <string name="count">سجل</string>
+    <string name="new_game">لعبة جديدة</string>
+    <string name="move_back">تراجع</string>
+
+</resources>

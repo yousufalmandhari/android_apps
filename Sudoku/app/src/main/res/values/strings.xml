@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="new_game">New Game</string>
+    <string name="level">Easy</string>
+    <string name="mistakes">Mistake: 0/3</string>
+    <string name="time">02:52</string>
+</resources>

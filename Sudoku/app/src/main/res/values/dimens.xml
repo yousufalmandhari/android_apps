@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top_layout">40sp</dimen>
+    <dimen name="new_game_button">10sp</dimen>
+    <dimen name="new_game_button_text_size">22sp</dimen>
+    <dimen name="new_game_button_left">10sp</dimen>
+    <dimen name="new_game_button_pend">10sp</dimen>
+
+    <dimen name="linyer2_panding">10sp</dimen>
+    <dimen name="top2_top_text_marge">5dp</dimen>
+    <dimen name="level_text_size">14sp</dimen>
+    <dimen name="number_size">17sp</dimen>
+    <dimen name="number_pend">10dp</dimen>
+    <dimen name="pand_text_color1">2dp</dimen>
+    <dimen name="pand_text_color2">1dp</dimen>
+</resources>

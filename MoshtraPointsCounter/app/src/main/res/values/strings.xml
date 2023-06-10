@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Points counter</string>
+    <string name="ass">Ass</string>
+    <string name="them">Them</string>
+    <string name="count">count</string>
+    <string name="new_game">New Game</string>
+    <string name="move_back">Move Back</string>
+</resources>

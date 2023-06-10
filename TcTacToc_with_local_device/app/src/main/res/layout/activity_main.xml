@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="265dp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5pt"
+            android:layout_marginRight="5pt"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_marginTop="5pt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5pt"
+                android:layout_weight="1"
+                android:onClick="btn_clicked"
+                app:backgroundTint="@color/btn_first_background"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_marginTop="5pt"
+                android:onClick="btn_clicked"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5pt"
+                android:layout_weight="1"
+                app:backgroundTint="@color/btn_first_background" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_marginTop="5pt"
+                android:onClick="btn_clicked"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:backgroundTint="@color/btn_first_background" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5pt"
+            android:layout_marginRight="5pt"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5pt"
+                android:layout_marginEnd="5pt"
+                android:layout_marginRight="5pt"
+                android:layout_weight="1"
+                android:onClick="btn_clicked"
+                app:backgroundTint="@color/btn_first_background" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_marginTop="5pt"
+                android:layout_marginEnd="5pt"
+                android:onClick="btn_clicked"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5pt"
+                android:layout_weight="1"
+                app:backgroundTint="@color/btn_first_background" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_marginTop="5pt"
+                android:layout_marginEnd="5pt"
+                android:onClick="btn_clicked"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:backgroundTint="@color/btn_first_background" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5pt"
+            android:layout_marginRight="5pt"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_marginTop="5pt"
+                android:layout_marginEnd="5pt"
+                android:onClick="btn_clicked"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5pt"
+                android:layout_weight="1"
+                app:backgroundTint="@color/btn_first_background" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_marginTop="5pt"
+                android:layout_marginEnd="5pt"
+                android:onClick="btn_clicked"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5pt"
+                android:layout_weight="1"
+                app:backgroundTint="@color/btn_first_background" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_marginTop="5pt"
+                android:layout_marginEnd="5pt"
+                android:onClick="btn_clicked"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:backgroundTint="@color/btn_first_background" />
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5pt"
+            android:layout_marginRight="5pt"
+            android:layout_weight="0.333">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5pt"
+                android:layout_marginEnd="5pt"
+                android:layout_marginRight="5pt"
+                android:layout_weight="1"
+                android:onClick="restartBtn"
+                android:text="Restart the game"
+                app:backgroundTint="@color/teal_700" />
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
